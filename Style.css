@@ -84,8 +84,8 @@ body p{
 }
 #Reel img{
 	padding-left: 50px;
-	min-width: 427px;
-	min-height: 240px;
+	max-width: 427px;
+	max-height: 240px;
 }
 #Wel h3{
 	margin-bottom: 3px;
