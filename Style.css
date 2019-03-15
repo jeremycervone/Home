@@ -6,7 +6,7 @@ body main{
 	margin-top: 0px;
 	background-image: url("background.jpg");
 	background-repeat: no-repeat;
-	height: 200px;
+	min-height: 200px;
 	background-size: cover;
 	padding-top: 5px;
 	padding-bottom: 75px;
@@ -20,26 +20,31 @@ body p{
 	font-size: 72pt;
 	text-align: center;
 }
+.line1 div{
+	display: inline-block;
+	/*height: 50px;*/
+	margin: 20px 10em -25px;
+}
 #AboutMe a{
-	float: left;
+	/*float: left;*/
 	background-color: black;
 	font-size: 36pt;
 	color: #76777b;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	text-decoration: none;
-	margin-left: 170px;
-	margin-right: 150px;
+	/*margin-left: 170px;
+	margin-right: 150px;*/
 	text-align: center;
 }
 #Home a{
-	float: left;
+	/*float: left;*/
 	background-color: black;
 	font-size: 36pt;
 	color: #76777b;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	text-decoration: none;
-	margin-left: 170px;
-	margin-right: 150px;
+	/*margin-left: 170px;
+	margin-right: 150px;*/
 	padding-left: 10px;
 	padding-right: 10px;
 	text-align: center;
@@ -47,14 +52,14 @@ body p{
 	border-color: white;
 }
 #Designs a{
-	float: left;
+	/*float: left;*/
 	background-color: black;
 	font-size: 36pt;
 	color: #76777b;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	text-decoration: none;
-	margin-left: 170px;
-	margin-right: 150px;
+	/*margin-left: 170px;
+	margin-right: 150px;*/
 	text-align: center;
 }
 #Intro p{
@@ -124,18 +129,22 @@ body p{
 	border-color: #76777b;
 	margin-bottom: 0px;
 }
+#Row2 div{
+	display: inline-block;
+	margin: 10px 6em 10px;
+}
 #Row2 a{
 	text-decoration: none;
 	font-size: 16pt;
 	color: #76777b;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
-	float: left;
+	/*float: left;*/
 	padding-left: 5px;
 	padding-right: 5px;
-	margin-left: 105px;
+	/*margin-left: 105px;
 	margin-right: 105px;
 	margin-top: 15px;
-	margin-bottom: 15px;
+	margin-bottom: 15px;*/
 }
 #Summ p{
 	font-size: 16pt;
@@ -169,7 +178,7 @@ body p{
 	height: 360px;
 }
 #GDR h3{
-	margin-top: 58px;
+	margin-top: 0px;
 	font-size: 24pt;
 	color: #76777b;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
