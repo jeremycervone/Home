@@ -11,19 +11,24 @@ body main{
 	padding-top: 5px;
 	padding-bottom: 75px;
 }
-body p{
+/*body p{
 	margin: 0px;
-}
+}*/
 #Header h1{
 	color: #ffffff;
 	font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
 	font-size: 72pt;
 	text-align: center;
+	
 }
 .line1 div{
 	display: inline-block;
 	/*height: 50px;*/
-	margin: 20px 10em -25px;
+	margin: 20px auto -25px;
+	width: 32%;
+	text-align: center;
+
+
 }
 #AboutMe a{
 	/*float: left;*/
@@ -131,7 +136,9 @@ body p{
 }
 #Row2 div{
 	display: inline-block;
-	margin: 10px 6em 10px;
+	margin: 10px auto 10px;
+	width: 19%;
+	text-align: center;
 }
 #Row2 a{
 	text-decoration: none;
